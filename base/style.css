@@ -122,3 +122,19 @@ form .btn-login {
 
   }
 }
+
+  /* Quando clicar no btn, sumir com o form */
+  .form-hide {
+    animation: down;
+    animation-fill-mode: forwards;
+     
+  }
+  
+  @keyframes down {
+    form{
+      transform: translateY(0);
+    } to {
+      transform: translateY(100vh);
+    }
+          
+  }
